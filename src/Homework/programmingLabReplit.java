@@ -187,61 +187,90 @@ input: y
 		
 	    System.out.println(word.charAt(0)+word.charAt(word.length()-1));
 		
-		*/
-		 Scanner scan = new Scanner (System.in);
-		 System.out.println("Enter status code:");
-		    int status = scan.nextInt();
-		    //WRITE YOUR CODE HERE 
-		    switch (status){
-		      case 200:
-		        System.out.println("OK");
-		        break;
-		        case 201:
-		          System.out.println("Created");
-		          break;
-		          case 202:
-		            System.out.println("Accepted");
-		            break;
-		            case 301:
-		              System.out.println("Moved Permanently");
-		              break;
-		              case 303:
-		                System.out.println("See Other");
-		                break;
-		                case 304:
-		                  System.out.println("Not Modified");
-		                  break;
-		                  case 307:
-		                    System.out.println("Temporary Redirect");
-		                    break;
-		                    case 400:
-		                    System.out.println("Bas Request");
-		                    break;
-		                    case 401:
-		                      System.out.println("Unauthorized");
-		                      break;
-		                      case 403:
-		                        System.out.println("Forbidden");
-		                        break;
-		                        case 404:
-		                          System.out.println("Not Found");
-		                          break;
-		                          case 410:
-		                            System.out.println("Gone");
-		                            break;
-		                            case 500:
-		                              System.out.println("Internal Server Error");
-		                              break;
-		                              case 503:
-		                                System.out.println("Service Unavailable");
-		                                break;
-		                                default:
-		                                System.out.println("Invalid status code!");
+		*//*Write the program that will calculate average grade.
+Declare 6 String variables: subject1,  subject2, subject3,  subject4, subject5, summary;
+Declare 6 double variables: grade1,  grade2, grade3,  grade4, grade5, average;
+
+-Create a Scanner object named scan.
+
+Execution flow with example:
+-Display prompt :"Welcome to the Grader!"
+-Display prompt: "Please enter subject name number 1 and score for this subject"
+Math
+5.0
+-Display prompt: "Please enter subject name number 2 and score for this subject"
+Biology
+4.2
+-Display prompt: "Please enter subject name number 3 and score for this subject"
+English
+4.4
+-Display prompt: "Please enter subject name number 4 and score for this subject"
+Chemistry
+4.8
+-Display prompt: "Please enter subject name number 3 and score for this subject"
+English
+4.4
+-Display prompt: "Please enter subject name number 4 and score for this subject"
+Chemistry
+4.8
+-Display prompt: "Please enter subject name number 5 and score for this subject"
+Music
+3.4
+
+-build summary variable by concatenating subject names and grades
+calculate average score and define that value into average variable.
+
+-Display prompt: "Summary: Math - 5.0,  Biology - 4.2,  English - 4.4, Chemistry - 4.8,  Music - 3.4"
+-Display prompt: "Your average score is: 4.36"
+-Display prompt: "Thank you for using Grader!"
+-Display prompt: "Goodbye!"*/
+		
+		Scanner scan = new Scanner(System.in);
+	    System.out.println("Welcome to the Grader!");
+	    
+	    System.out.println("Please enter subject name number 1 and score for this subject");
+	    String subject1 = scan.next();
+	    double grade1 = scan.nextDouble();
+	    
+	    System.out.println("Please enter subject name number 2 and score for this subject");
+	    String subject2 = scan.next();
+	    double grade2 = scan.nextDouble();
+	    
+	    System.out.println("Please enter subject name number 3 and score for this subject");
+	    String subject3 = scan.next();
+	    double grade3 = scan.nextDouble();
+	    
+	    System.out.println("Please enter subject number 4 and score for this subject");
+	    String subject4 = scan.next();
+	    double grade4 = scan.nextDouble();
+	    
+	    System.out.println("Please enter subject name 5 and score for this subject ");
+	    String subject5 = scan.next();
+	    double grade5 = scan.nextDouble();
+	    
+	    System.out.println("Summary: "+subject1+ " - "+grade1 +", "+subject2+" - "+grade2+", "+subject3+" - "+grade3+", "+subject4+" - "+grade4+", "+subject5+" - "+grade5);
+	    
+	    System.out.println("Your average score is: "+(grade1+grade2+grade3+grade4+grade5)/5);
+	    
+	    System.out.println("Thank you for using Grader");
+	    System.out.println("Goodbye!");
+	    
+
+	    	    String str = "boopity bop";
+	    	    int i = 10;
+	    	    
+	    	    // write code here
+	    	    System.out.print(str.charAt(5));
+	    	    System.out.print(str.charAt(8));
+	    	    System.out.print(str.charAt(1));
+	    	   // System.out.print(i.charAt(th));
+	  
+	  }
 		
 		
 		
 		
+
 		
 		
-}
 }

@@ -7,7 +7,7 @@ public class StringMethods {
 
 		String str1 = "Hello Javengers";
 		String str2 = "Hello Javengers";
-		boolean R1 = str1 ==str2;        //since ther are located in same memory it is tRUE
+		boolean R1 = str1 ==str2;        //since there are located in same memory it is tRUE
 		System.out.println(R1);
 		
 		
@@ -66,7 +66,7 @@ public class StringMethods {
 		//OR
 		System.out.println(life1.replace('a', 'e'));
 		
-	//REPLACE (ols str,new str) all returns itb as NEW string value
+	//REPLACE (ols str,new str) all returns it as NEW string value
 		
 		String myHouse = "I did great job with my house ";
 		
