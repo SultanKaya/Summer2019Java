@@ -115,7 +115,7 @@ Enter a number:
 Enter a number:
 0
 0 is even*/
-		
+		/*
 		 Scanner scan = new Scanner(System.in);
 		    System.out.println("Welcome to the Grader!");
 		    
@@ -145,7 +145,103 @@ Enter a number:
 		    System.out.println("Thank you for using Grader");
 		    System.out.println("Goodbye!");
 		    
-		
+		*/
 	
+		/*Write a switch statement that tests the value of the char variable response and performs the following actions:
+if response is y, the message Your request is being processed is printed
+if response is n, the message Thank you anyway for your consideration is printed
+if response is h, the message Sorry, no help is currently available is printed
+for any other value of response, the message "Invalid entry, please try again!" is printed
+
+Create Scanner object.
+Use charAt() method, in order to get the char value at the specified index.
+
+Example:
+
+-Display prompt: "Enter command:"
+input: y
+-Display prompt: "Your request is being processed"
+		
+		*/
+		/*
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter command:");
+		char result = scan.next().charAt(0);
+		
+		switch (result) {
+		
+		case 'y':
+			System.out.println("Your request is being processed");
+			break;
+		case 'n':
+			System.out.println("Thank you anyway for your consideration");
+			break;
+		case 'h':
+			System.out.println("Invalid entry, please try again!");
+			break;
+		
+		*//*
+		Scanner scan = new Scanner (System.in);
+		
+		String word = scan.next();
+		
+	    System.out.println(word.charAt(0)+word.charAt(word.length()-1));
+		
+		*/
+		 Scanner scan = new Scanner (System.in);
+		 System.out.println("Enter status code:");
+		    int status = scan.nextInt();
+		    //WRITE YOUR CODE HERE 
+		    switch (status){
+		      case 200:
+		        System.out.println("OK");
+		        break;
+		        case 201:
+		          System.out.println("Created");
+		          break;
+		          case 202:
+		            System.out.println("Accepted");
+		            break;
+		            case 301:
+		              System.out.println("Moved Permanently");
+		              break;
+		              case 303:
+		                System.out.println("See Other");
+		                break;
+		                case 304:
+		                  System.out.println("Not Modified");
+		                  break;
+		                  case 307:
+		                    System.out.println("Temporary Redirect");
+		                    break;
+		                    case 400:
+		                    System.out.println("Bas Request");
+		                    break;
+		                    case 401:
+		                      System.out.println("Unauthorized");
+		                      break;
+		                      case 403:
+		                        System.out.println("Forbidden");
+		                        break;
+		                        case 404:
+		                          System.out.println("Not Found");
+		                          break;
+		                          case 410:
+		                            System.out.println("Gone");
+		                            break;
+		                            case 500:
+		                              System.out.println("Internal Server Error");
+		                              break;
+		                              case 503:
+		                                System.out.println("Service Unavailable");
+		                                break;
+		                                default:
+		                                System.out.println("Invalid status code!");
+		
+		
+		
+		
+		
+		
 }
 }
