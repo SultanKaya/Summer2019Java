@@ -45,10 +45,25 @@ System.out.println(message.trim( ));
 		System.out.println(y2);
 		*/
 		
+	//LOOPS 
 		
 		
 		
-		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		//MATH CLASS
 		/*
 		int result = Math.round(1.1F);       //round method rounded float to integer

@@ -1,5 +1,7 @@
 package MoshTutorial;
 
+import java.util.Scanner;
+
 public class JavaTutorialWithMosh {
 
 	public static void main(String[] args) {
@@ -93,13 +95,8 @@ public class JavaTutorialWithMosh {
 				String result = currency.format(122376798);
 				System.out.println(result);
 		
-		
-		*/
-		
-		
-		
-		
-		
+	*/
+
 		
 		
 		

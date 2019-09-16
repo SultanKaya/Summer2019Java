@@ -36,11 +36,11 @@ public class Day18 {
 		int firstNameIndext = firstName.length()-1;
 		
 		int lastNameIndex  = lastName.length()-1;
-		String LastLetters = ""+firstNameindex
+		//String LastLetters = ""+firstNameindex
 		
 		
 		
-		System.out.println(lastLetter);
+		//System.out.println(lastLetter);
 		
 		
 		

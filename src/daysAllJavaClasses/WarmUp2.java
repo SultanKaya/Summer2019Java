@@ -29,7 +29,7 @@ public class WarmUp2 {
 		String lastName =scan.nextLine();
 		// cYberTEK
 		
-		lastName = lastName.substring(0,1).toUpperCase()+lastName.substring(0).toLowerCase();
+		lastName = lastName.substring(0,1).toUpperCase()+lastName.substring(1).toLowerCase();
 		
 		System.out.println(lastName);
 		

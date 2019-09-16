@@ -75,16 +75,57 @@ public class stringMethodsBoolean {
 		
 		String B1 = "Sultan Kaya";
 		 boolean r3 =B1.endsWith("a");
-		 System.out.println(r3);
+		 System.out.println(r3);            //true
 		 
-		 System.out.println(B1.endsWith("M"));
+		 System.out.println(B1.endsWith("M"));   //false 
+		 
+		 
+		 
+		 /*
+		 13. Write a Java program to check whether two String objects contain the same data. Go to the editor
+
+		 Sample Output:
+
+		 "Stephen Edwin King" equals "Walter Winchell"? false                                                          
+		 "Stephen Edwin King" equals "Mike Royko"? false
+
+		*/
+		 
+		 String str1 = "Stephen Edwin King";
+		 String str2= "Walter Winchell";
+		String str3= "Mike Royko";
 		
+			boolean result =str.contains(str2);
+			boolean result2 = str1.contains(str3);
+			
+			System.out.println("\""+ str1+"\""+" equals  "+"\""+ str2+"\""+"? "+result );	 
+		System.out.println("\""+str1 +"\""+" equals "+"\""+str3+"\""+"? "+result2);
 		
+		 /*
+		 Write a Java program to compare a given string to another string, ignoring case considerations. Go to the editor
+
+Sample Output:
+
+"Stephen Edwin King" equals "Walter Winchell"? false                                                          
+"Stephen Edwin King" equals "stephen edwin king"? true 
 		
+		*/
 		
+	String str4 = "stephen edwin king";
+		 boolean rt1= str1.equalsIgnoreCase(str2);
+		 boolean rt2 = str1.equalsIgnoreCase(str4);
+		 
+		 
+		 
+		 System.out.println("\""+str1 +"\""+" equals " +"\""+str2 +"\""+" ? "+ rt1);
+		 System.out.println("\""+str1 +"\""+" equals "+ "\""+str4+"\""+" ? "+ rt2);
+		 
+		 
+		 
 		
-		
-		
+		 
+		 
+		 
 
 	}
 
